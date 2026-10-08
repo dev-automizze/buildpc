@@ -1,0 +1,38 @@
+ # Local environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build output and generated frontend files
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+
+# Python backend caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ENV/
+
+# Runtime data, local databases, and logs
+*.log
+*.sqlite
+*.sqlite3
+*.db
+instance/
+uploads/
+
+# Local tooling and OS files
+.DS_Store
+.idea/
+.vscode/
